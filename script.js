@@ -1,3 +1,4 @@
+var view = document.getElementById('show_location');
 function display_location(a) {
-	console.log("X: " + a.clientX + "; " + "Y: " + a.clientY + "; "  + new Date());
+	view.innerHTML = "X: " + a.clientX + "; " + "Y: " + a.clientY + "; "  + new Date();
 } 

@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.holder {
+	width: 100%;
+	height: 300px;
+	background-color: #5A80A6;
+	border-radius: 5px;
+}
